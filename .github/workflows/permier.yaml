@@ -30,6 +30,6 @@ jobs:
 
   Chelouterie: 
       needs: [BIDERIE]
-      uses: ./.github/workflows/deploy.yaml
+      uses: ./.github/workflows/canary.yaml
       secrets: inherit 
 
